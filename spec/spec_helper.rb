@@ -1,6 +1,3 @@
-require 'coveralls'
-Coveralls.wear!
-
 require 'wisper'
 
 RSpec.configure do |config|
