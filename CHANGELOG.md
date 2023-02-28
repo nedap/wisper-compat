@@ -1,5 +1,10 @@
 ## HEAD (unreleased)
 
+## 4.0 (28th Feb 2023)
+Authors: Jamie Schembri
+
+* feature: rename gem from `wisper` to `wisper-compat`.
+
 ## 3.0 (20th Jan 2023)
 Authors: doits, jstoks, merringtion
 
