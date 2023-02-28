@@ -21,7 +21,7 @@ Please also see the [Wiki](https://github.com/krisleech/wisper/wiki) for more ad
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'wisper', '3.0.0'
+gem 'wisper-compat', '4.0.0'
 ```
 
 ## Usage
