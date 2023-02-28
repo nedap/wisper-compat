@@ -2,10 +2,7 @@
 
 *A micro library providing Ruby objects with Publish-Subscribe capabilities*
 
-[![Gem Version](https://badge.fury.io/rb/wisper.svg)](http://badge.fury.io/rb/wisper)
-[![Code Climate](https://codeclimate.com/github/krisleech/wisper.svg)](https://codeclimate.com/github/krisleech/wisper)
-[![Build Status](https://travis-ci.org/krisleech/wisper.svg?branch=master)](https://travis-ci.org/krisleech/wisper)
-[![Coverage Status](https://coveralls.io/repos/krisleech/wisper/badge.svg?branch=master)](https://coveralls.io/r/krisleech/wisper?branch=master)
+[![Gem Version](https://badge.fury.io/rb/wisper-compat.svg)](http://badge.fury.io/rb/wisper-compat)
 
 * Decouple core business logic from external concerns in Hexagonal style architectures
 * Use as an alternative to ActiveRecord callbacks and Observers in Rails apps
@@ -320,12 +317,6 @@ articles and talks.
 Got a specific question, try the
 [Wisper tag on StackOverflow](http://stackoverflow.com/questions/tagged/wisper).
 
-## Compatibility
-
-Tested with MRI 2.7, 3.x, and JRuby.
-
-See the [build status](https://travis-ci.org/krisleech/wisper) for details.
-
 ## Running Specs
 
 ```
@@ -340,13 +331,7 @@ ls **/*.rb | entr bundle exec rspec
 
 ## Contributing
 
-Please read the [Contributing Guidelines](https://github.com/krisleech/wisper/blob/master/CONTRIBUTING.md).
-
-## Security
-
-* gem releases are [signed](http://guides.rubygems.org/security/) ([public key](https://github.com/krisleech/wisper/blob/master/gem-public_cert.pem))
-* commits are GPG signed ([public key](https://pgp.mit.edu/pks/lookup?op=get&search=0x3ABC74851F7CCC88))
-* My [Keybase.io profile](https://keybase.io/krisleech)
+Please read the [Contributing Guidelines](https://github.com/nedap/wisper-compat/blob/master/CONTRIBUTING.md).
 
 ## License
 
