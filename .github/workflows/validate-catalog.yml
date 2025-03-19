@@ -1,0 +1,20 @@
+name: Validate Catalog info
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'catalog-info.yml'
+      - '.github/workflows/validate-catalog.yml'
+
+jobs:
+  validate_catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - id: 'Checkout'
+        uses: actions/checkout@v4
+
+      - id: 'Validate'
+        uses: 'RoadieHQ/backstage-entity-validator@v0.5.0'
+        with:
+          path: catalog-info.yml
