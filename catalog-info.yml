@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: Wisper
+  name: wisper-compat
+  description: A micro library providing Ruby objects with Publish-Subscribe capabilities
+spec:
+  type: library
+  owner: group:healthcare-developers-logistiek
+  lifecycle: production
