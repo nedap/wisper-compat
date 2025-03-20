@@ -7,5 +7,5 @@ metadata:
   description: A micro library providing Ruby objects with Publish-Subscribe capabilities
 spec:
   type: library
-  owner: group:healthcare-developers-platform
+  owner: group:healthcare-developers-logistiek
   lifecycle: production
